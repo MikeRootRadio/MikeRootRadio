@@ -42,3 +42,84 @@
 .row{
     margin-top: 20px;
 }
+
+#Categories{
+    padding-left: 0px;
+}
+
+#CategoryList, #SongList{
+    list-style: none;
+    font-family: "Orbitron";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    cursor: pointer;
+    width: 110px;
+    float: left;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+
+#SongList{
+    font-size: 12px;
+    line-height: 24px;
+    width: 220px;
+}
+
+#CategoryPointer{
+    font-family: "Orbitron";
+    font-size: 36px;
+    float: left;
+    margin-top: 0px;
+    position: relative;
+    top: -8px;
+    color: deepskyblue;
+}
+
+.category:hover {
+    color: deepskyblue;
+}
+
+.song:hover{
+    color: deepskyblue;
+}
+
+#AboutTitle{
+    font-family: "Orbitron";
+    font-size: 16px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.custom-line{
+    margin-top: 5px;
+}
+
+#AboutContent{
+    font-family: "Orbitron";
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#Image{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#NowPlaying{
+    width: 100%;
+    visibility: hidden;
+}
+
+#Fantom{
+    width: 100%;
+    margin-top: 30px;
+}
+
+#Jupiter{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
