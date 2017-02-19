@@ -5,11 +5,12 @@ using System.Web.Mvc;
 
 namespace MikeRootRadio.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
+            ViewBag.Title = "Mike Root Radio";
             return View();
         }
     }

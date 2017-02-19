@@ -1,0 +1,44 @@
+﻿body {
+    background-image: url(Images/background3.jpg);
+    padding-top: 0px;
+    color: white;
+    height: 900px;
+}
+
+@media (min-width: 1500px){
+    .container{
+        max-width: 1500px;
+    }
+} 
+
+@media (min-width: 1700px){
+    .container{
+        max-width: 1700px;
+    }
+} 
+
+@media (min-width: 1920px){
+    .container{
+        max-width: 1920px;
+    }
+} 
+
+.section{
+    border-right-color: white;
+    border-right-width: 1px;
+    border-right-style: groove;
+    height: 900px;
+}
+.section:last-of-type{
+    border-right: none;
+}
+
+#Footer{
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+}
+
+.row{
+    margin-top: 20px;
+}
